@@ -6,4 +6,5 @@ var app = express();
 app.get('/home', function(req, res) {
     res.writeHead(200, {'Content-Type':'text/plain'});
     res.end('Hello World!');
-}).listen(port);
+});
+app.listen(port);
